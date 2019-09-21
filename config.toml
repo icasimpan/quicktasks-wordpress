@@ -1,0 +1,9 @@
+baseURL = "https://ismael.casimpan.com/quicktasks-wordpress"
+languageCode = "en-us"
+title = "Quick Tasks: Wordpress"
+theme = "basics"
+
+[params]
+    author = "Ismael Casimpan"
+    github = "icasimpan"
+    #gitlab = "username2"
