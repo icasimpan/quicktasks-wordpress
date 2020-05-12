@@ -1,6 +1,7 @@
 ---
 title: "DB Backup via wp_cli"
 date: 2019-09-28T23:17:11+08:00
+tags: [wordpress]
 draft: false
 ---
 
