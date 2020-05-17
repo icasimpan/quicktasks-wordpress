@@ -1,7 +1,7 @@
 ---
 title: "Errors in Project NAMI (wordpress on mssql)"
 date: 2019-09-28T23:17:11+08:00
-tags: [wordpress]
+tags: [wordpress, project-nami, nami, mssql, wordpress-mssql]
 draft: false
 ---
 
