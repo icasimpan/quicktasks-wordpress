@@ -1,7 +1,7 @@
 ---
 title: "Install wp_cli"
 date: 2019-09-28T23:17:11+08:00
-tags: [wordpress]
+tags: [wordpress, wp_cli, wp-cli, install]
 draft: false
 ---
 
