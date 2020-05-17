@@ -1,7 +1,7 @@
 ---
 title: "Wordpress URL change upon migration to another domain"
 date: 2019-09-28T23:17:11+08:00
-tags: [wordpress]
+tags: [wordpress, migration, url-change, domain, change]
 draft: false
 ---
 
