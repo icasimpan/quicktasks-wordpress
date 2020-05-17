@@ -1,7 +1,7 @@
 ---
 title: "Plugin install without FTP Credentials"
 date: 2019-09-28T23:17:11+08:00
-tags: [wordpress]
+tags: [wordpress, plugin, install, ftp]
 draft: false
 ---
 
