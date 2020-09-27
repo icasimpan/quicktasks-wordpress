@@ -12,17 +12,17 @@ define('WP_HOME','http://NEW_DOMAIN.com/');
 define('WP_SITEURL','http://NEW_DOMAIN.com/');
 ```
 
-You can test from 'curl' it it works:
+You can test it in `curl` and see if it works:
 ```
 curl -IL http://NEW_DOMAIN.com
 ```
 
-Via wp-cli, following can be done:
+URL change can be done via `wp-cli`. Do the following:
 ```
 wp search-replace 'OLD_DOMAIN.com' 'NEW_DOMAIN.com' --dry-run
 ```
 
-Note that the above is a dry-run or practice only. If it says 'x replacements' where x is not 0 like below:
+Note that the above is a `dry-run` or practice only. If x in not zero in the bottom statement of 'x replacements':
 ```
 ~$ wp search-replace 'http://OLD_DOMAIN.com' 'http://NEW_DOMAIN.com' --dry-run
 +------------------+-----------------------+--------------+------+
@@ -84,7 +84,7 @@ Note that the above is a dry-run or practice only. If it says 'x replacements' w
 Success: 8 replacements to be made.
 ```
 
-proceeed and remove the '--dry-run' as follows:
+Proceeed and remove the '--dry-run' as follows:
 ```
 ~$ wp search-replace 'http://OLD_DOMAIN.com' 'http://NEW_DOMAIN.com'
 ```
@@ -98,3 +98,5 @@ wp option update siteurl 'https://NEW_DOMAIN.com'
 ```
 
 Things will go back to normal.
+
+NOTE: Going from `http` to `https` and vice versa is a URL change.
